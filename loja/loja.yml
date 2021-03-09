@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    password: teste
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/loja
+    username: marlito
+  jpa:
+    hibernate:
+      ddl-auto: update
